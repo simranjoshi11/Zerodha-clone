@@ -13,10 +13,10 @@ export default function LeftImg({
     <>
       <div className="conatainer ">
         <div className="row p-5">
-          <div className="col-6 p-5 ">
+          <div className="col-7 p-5 ">
             <img src={imageURL} />
           </div>
-          <div className="col-6 p-5 mt-5">
+          <div className="col-5 p-5 mt-5">
             <h1>{productName}</h1>
             <p className="fs-5 text-muted">{productDescription}</p>
             <div >
